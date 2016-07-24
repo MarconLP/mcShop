@@ -2,9 +2,9 @@
 body
 {
     background-color: lime;
+}
 
 /*2. Button setting*/
-}
 .button {
     background-color: lime;
     border: none;
@@ -56,15 +56,14 @@ body
     color: white;
     border-radius: 8px;
 }
-/*4. Positioning*/
+/*4. Positioning buttons*/
 
 #header
 {
     float:right;
 }
 
-ul
-{
+ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -84,5 +83,46 @@ ul
 	padding: 2em;
     background: white;
 }
-/*6. Login input*/
+/*6. Emailverifizierung*/
+.emailverifizierungsbutton {
+    background-color: lime;
+    color: black;
+    border: 2px #4CAF50;
+    border-radius: 8px;
+    border: 2px solid green;
+    position: absolute;
+    top: 350px;
+    left: 600px;
+}
 
+.emailverifizierungsbutton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#emailverifizierungscode {
+    position: absolute;
+    top: 320px;
+    left: 445px;
+}
+.emailverifizierungstext {
+    position: absolute;
+    left: 480px;
+    top: 50px;
+    font-size: 75px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#. Login input*/
