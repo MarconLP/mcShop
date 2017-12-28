@@ -9,7 +9,7 @@ body
     background-color: lime;
     border: none;
     color: white;
-    padding: 16px 32px;
+    padding: 4px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -55,6 +55,31 @@ body
     background-color: black;
     color: white;
     border-radius: 8px;
+}
+.button4 {
+    background-color: lime;
+    color: black;
+    border: 2px #4CAF50;
+    border-radius: 8px;
+}
+
+.button4:hover {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+.button5 {
+    background-color: lime;
+    color: green;
+    border: 2px #4CAF50;
+    border-radius: 8px;
+}
+
+.button5:hover {
+    background-color: lime;
+    color: lime;
+    border-radius: 8px;
+    cursor: not-allowed;
 }
 /*4. Positioning buttons*/
 
@@ -110,19 +135,42 @@ ul{
     top: 50px;
     font-size: 75px;
 }
+/*7. Administration*/
+.administrationsbutton {
+    background-color: lime;
+    color: black;
+    border: 2px #4CAF50;
+    border-radius: 8px;
+    border: 2px solid green;
+    position: absolute;
+    top: 350px;
+    left: 600px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.administrationsbutton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.administrationstext {
+    position: absolute;
+    left: 480px;
+    top: 50px;
+    font-size: 75px;
+}
+#administrationsusername {
+    position: absolute;
+    top: 280px;
+    left: 445px;
+}
+#administrationspassword {
+    position: absolute;
+    top: 300px;
+    left: 445px;
+}
+#administrationskey {
+    position: absolute;
+    top: 320px;
+    left: 445px;
+}
 
 
 /*#. Login input*/

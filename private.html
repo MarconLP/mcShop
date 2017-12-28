@@ -1,0 +1,35 @@
+<html>
+    <head>
+		<link rel="icon" href="error.png" type="image/png" sizes="16x16">
+        <title>Administration | McShops</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <span style="color:2D92BA" class="administrationstext">Administration</span>
+        <form>
+	        <label for="administrationscode">
+	        	<input id="administrationsusername" type="text" size="75" placeholder="Username">
+				<input id="administrationspassword" type="password" size="75" placeholder="Password">
+				<input id="administrationskey" type="password" size="75" placeholder="Key">
+            </label>
+        </form>
+            <ul>
+                <li class='nav'><button class="button administrationsbutton">Verifizieren</button></li>
+            </ul>
+		<script>
+			function myFunction(){
+			var ans = prompt("Bitte gebe das password ein","");/* displays dialog asking for password to proceed */
+			if (ans == "admin"){
+				alert("Zugriff erfolgreich");
+				}
+			else{
+				alert("Zugriff verweigert");
+				window.close();
+				}
+			}
+		</script>
+		<body onload = "myFunction()"
+			<img src="logo.jpg" style=" width=400px; height:400px; ;">
+		</script>
+    </body>
+</html>
